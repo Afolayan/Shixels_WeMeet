@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    package="com.shixels.wemeet">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name="com.shixels.wemeet.app.WeMeet"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_id" />
+
+        <activity
+            android:name="com.shixels.wemeet.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+
+            <activity
+                android:name="com.facebook.FacebookActivity"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait"/>
+
+            <provider
+                android:authorities="com.facebook.app.FacebookContentProvider"
+                android:name="com.facebook.FacebookContentProvider"
+                android:exported="true"/>
+        </activity>
+        <activity android:name="com.shixels.wemeet.LoginActivity"
+            android:theme="@style/MyTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

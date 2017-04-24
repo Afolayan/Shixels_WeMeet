@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f78181</color>
+    <color name="colorPrimaryDark">#e44549</color>
+    <color name="colorPrimary1">#e44549</color>
+    <color name="colorAccent">#cda0a0</color>
+    <color name="white">#faf7f7</color>
+    <color name="grey">#c4c1c1</color>
+    <color name="my_grey">#727272</color>
+    <color name="light_grey">#a6a4a4</color>
+    <color name="my_black" >#232222</color>
+    <color name="navdrawer_icon_tint">#888</color>
+    <color name="colorCounterBackground">#34B5E5</color>
+    <color name="gray_bg">#E5E5E5</color>
+    <color name="button_pink">#f3a2a1</color>
+</resources>

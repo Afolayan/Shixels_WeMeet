@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">We Meet</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="header_text"><![CDATA[Meet New People, Family & Friends]]></string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">LOGIN</string>
+    <string name="nothing_to_load">Nothing to load</string>
+    <string name="shixels">Shixels Studios LTD</string>
+    <string name="posted">posted</string>
+    <string name="shared">shared</string>
+    <string name="benz">Nice looking brand new Mercedes Benz</string>
+    <string name="action_items">Items</string>
+    <string name="Feed">Feed</string>
+    <string name="feed">Feed</string>
+
+    <string-array name="navDrawerIcons">
+        <item>@drawable/feed</item>
+        <item>@drawable/calendar</item>
+        <item>@drawable/post</item>
+        <item>@drawable/notification</item>
+        <item>@drawable/account</item>
+        <item>@drawable/logout</item>
+    </string-array>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string-array name="navDrawerItems">
+        <item>Feed</item>
+        <item>Events</item>
+        <item>Post</item>
+        <item>Notifications</item>
+        <item>Accounts</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string name="page_1">Feed</string>
+    <string name="page_2">Events</string>
+    <string name="page_3">Post</string>
+    <string name="page_4">Notifications</string>
+    <string name="page_5">Accounts</string>
+    <string name="page_6">Logout</string>
+
+    <string name="facebook_id">1693221620980156</string>
+    <string name="fb_login_protocol_scheme">fb1693221620980156</string>
+</resources>
